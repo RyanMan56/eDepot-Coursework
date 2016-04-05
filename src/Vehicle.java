@@ -7,10 +7,12 @@ public class Vehicle {
 	private List<WorkSchedule> workSchedules;
 
 	public boolean isAvailable(){
-		
+		return false;
 	}
 	
-	public void setSchedule();
+	public void setSchedule() {
+		
+	}
 	
 }
 

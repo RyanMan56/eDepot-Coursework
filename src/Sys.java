@@ -9,7 +9,7 @@ public class Sys {
 		scan = new Scanner(System.in);
 		depots.add(new Depot());
 		depots.add(new Depot());
-		getDepot().logon();
+		getDepot().logon("Bll", "password");
 	}
 
 	public static void main(String[] args) {
