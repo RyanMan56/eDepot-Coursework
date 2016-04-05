@@ -12,11 +12,10 @@ public class Depot {
 	public Depot(){
 		scanner = new Scanner(System.in);
 		drivers.add(new Driver("Steven", "IAmSteven"));
-		drivers.add(new Driver("", password))
+		drivers.add(new Driver("", password));
 	}
 	 
 	public void logon(){
-		System.out.println("Hello Steven \n fak u meng \n etc.");
 		
 	}
 	
