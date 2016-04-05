@@ -1,13 +1,15 @@
 import java.util.ArrayList;
+import java.util.Date;
 
 
 public class Driver {
 	protected String username, password;
-	private ArrayList<WorkSchedule> workSchedules;
+	public ArrayList<WorkSchedule> workSchedules;
 	
 	public Driver(String username, String password){
 		this.username = username;
 		this.password = password;
+		workSchedules = new ArrayList<>();
 	}
 	
 	public boolean checkPassword(String username, String password){
@@ -21,8 +23,8 @@ public class Driver {
 		return false;
 	}
 	
-	public void setSchedule(){
-		
+	public void setSchedule(String client, Date startDate, Date endDate){
+		workSchedules.add(new WorkSchedule(client, startDate, endDate));
 	}
 
 }
