@@ -11,7 +11,7 @@ public class Driver {
 	}
 	
 	public boolean checkPassword(String username, String password){
-		if((this.username == username) && (this.password == password))
+		if((this.username.equals(username)) && (this.password.equals(password)))
 			return true;
 		else
 			return false;
